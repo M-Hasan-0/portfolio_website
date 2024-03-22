@@ -1,0 +1,132 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* body *{
+    margin: 1px;
+    border: 1px solid black;
+} */
+
+ body *{
+    color: white;
+}
+
+
+body{
+    background-image: url("./assets/image-HIq--EmQK-transformed.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+
+
+
+
+
+/* 
+==============================
+Css for Hero
+==============================
+*/
+.hero-content{
+    margin-top: 30vh;
+}
+
+.hero-content h1{
+    font-size: 48px;
+}
+.hero-content h3{
+    font-size: 33px;
+}
+
+
+/* 
+==============================
+Css for Hero
+==============================
+*/
+
+
+
+
+
+/* 
+==============================
+Css for sections
+==============================
+*/
+
+section{
+    background-color: rgba(0, 0, 0, 0.33);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 1250px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.section-heading{
+    margin-top: 3%;
+    font-size: 35px;
+}
+
+.section-content{
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+.about-me .container,
+.contact .container
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* 
+==============================
+Css for sections
+==============================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+==============================
+Media qurie
+==============================
+*/
+@media screen and (max-width: 1250px) {
+    .container{
+        width: 95%;
+    }
+  }
+
+/* 
+==============================
+Media qurie
+==============================
+*/
+
